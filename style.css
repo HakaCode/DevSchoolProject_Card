@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  background: #fffeff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.center__card {
+  max-width: 600px;
+  border-top: 6px solid orangered;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.center__card h1 {
+  color: #2A2829;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center__card p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #868586;
+  padding: 15px 0px 60px 0;
+}
+
+.center__card img {
+  width: 100px;
+  margin-left: 440px;
+}
+
+
+
